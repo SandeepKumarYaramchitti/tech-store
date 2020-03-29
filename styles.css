@@ -1,0 +1,52 @@
+html {
+    background: #f7f7f7;
+}
+
+body {
+    background: white;
+    margin: o auto;
+    font-family: 'Barlow', sans-serif;
+    max-width: 2000px;
+}
+
+header,
+footer {
+    background: black;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
+
+header h1,
+nav {
+    display: inline-block;
+}
+
+main {
+    width: 1200px;
+    display: inline-block;
+}
+
+aside {
+    width: 400px;
+    display: inline-block;
+}
+
+.product {
+    border: 1px solid grey;
+    width: 160px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
